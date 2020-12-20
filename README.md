@@ -2,6 +2,9 @@
 
 This project is a training project in Bioinformatic institute. In this case, we will try to describe two different types of soils - black taiga soil and regional common soil. We analyse Oxford Nanopore reads and Illumina 16s amplicones and try to extract some useful information about communities of microorganisms.
 
+Student: Zverev Aleksei
+Supervisors: Mike Raiko, Lavrentii Danilov
+
 ## 1. Aims and Tasks
 
 Current task was to decribe composition of soil microbiome in different soils, in particular:
@@ -121,7 +124,7 @@ Make an OTU table for extracted 16s rRNA genes, using QIIME
 ```
 $pick_de_novo_otus.py -r /home/alexey/tax_n_refs/silva_132_97_16S.fna -t /home/alexey/tax_n_refs/taxonomy_7_level.txt -i all.fasta -o otus
 ```
-Downstream analysis performed in R. All code from this step you can find in [`processing.R`](../blob/main/Processing.R) file
+Downstream analysis performed in R. All code from this step you can find in [`processing.R`](https://github.com/a-zverev/Taiga_Metagenome_Project/blob/main/Processing.R) file
 
 Here we can show taxonomical structure in phyla level for amplicone and metagenomic data
 
