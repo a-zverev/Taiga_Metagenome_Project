@@ -121,7 +121,7 @@ Make an OTU table for extracted 16s rRNA genes, using QIIME
 ```
 $pick_de_novo_otus.py -r /home/alexey/tax_n_refs/silva_132_97_16S.fna -t /home/alexey/tax_n_refs/taxonomy_7_level.txt -i all.fasta -o otus
 ```
-Downstream analysis performed in R. All code from this step you can find in `processing.R` file
+Downstream analysis performed in R. All code from this step you can find in [`processing.R`](../blob/main/Processing.R) file
 
 Here we can show taxonomical structure in phyla level for amplicone and metagenomic data
 
