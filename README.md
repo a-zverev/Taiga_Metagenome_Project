@@ -3,6 +3,7 @@
 This project is a training project in Bioinformatic institute. In this case, we will try to describe two different types of soils - black taiga soil and regional common soil. We analyse Oxford Nanopore reads and Illumina 16s amplicones and try to extract some useful information about communities of microorganisms.
 
 Student: Zverev Aleksei
+
 Supervisors: Mike Raiko, Lavrentii Danilov
 
 ## 1. Aims and Tasks
