@@ -33,12 +33,12 @@ We perform followed analysis in server computer (20 cores, 500Gb memory, Ubintu 
 * [QIIME](http://qiime.org/) 1.9.1
 * [PROKKA](https://github.com/tseemann/prokka) 1.14.6
 * [R](https://www.r-project.org/) 4.0.3 and libraries:
-    * Biostrings 2.54.0
-    * dada2 1.14.1
-    * dplyr 1.0.2
-    * plyr 1.8.6
-    * ggplot2 3.3.2
-    * phyloseq 1.30
+    * [Biostrings](https://rdrr.io/bioc/Biostrings/) 2.54.0
+    * [dada2](https://benjjneb.github.io/dada2/tutorial.html) 1.14.1
+    * [dplyr](https://dplyr.tidyverse.org/) 1.0.2
+    * [plyr](https://www.rdocumentation.org/packages/plyr/versions/1.8.6) 1.8.6
+    * [ggplot2](https://ggplot2.tidyverse.org/) 3.3.2
+    * [phyloseq](https://joey711.github.io/phyloseq/) 1.30
 * [SILVA](https://www.arb-silva.de/) 132 database
 
 
@@ -126,9 +126,11 @@ Downstream analysis performed in R. All code from this step you can find in `pro
 Here we can show taxonomical structure in phyla level for amplicone and metagenomic data
 
 16s rRNA gene from amplicons:
+
 ![amplicone](amplicons.jpg)
 
 16s rDNA from metagenomes:
+
 ![metagenome](metagenome.jpg)
 
 ## 4.7 PROKKA annotations
@@ -162,12 +164,6 @@ In our work, we performed basic analysis of metagenomic assembles, and compare w
 2. Binning via MetaBAT2 is not sucsessful due high contamination level. It can be linked to high diversity of soils, and high variety of matrix. But, perhaps, we should use another binning package (for example, Maxbin)
 3. 16s rRNA genes, extracted from metagenome assembles, all are discovered in amplicone reads on genus level. In common view, on Phyla level, taxonomical structure of amplicone and metagenome communities are similar
 4. PROKKA allowed to annotate hypotetical and annotated proteins (and glycoside hydrolase genes in particular), but their numbers should be corrected
-
-
-
-
-
-
 
 
 
